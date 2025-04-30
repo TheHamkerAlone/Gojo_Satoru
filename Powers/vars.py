@@ -44,7 +44,7 @@ class Config:
     # AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API", default=iXkrY3xWBKvi6dJcfCLrRxp5)
     DB_URI = config("DB_URI", default=mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority)
-    DB_NAME = config("DB_NAME", default=zara")
+    DB_NAME = config("DB_NAME", default=zara)
     BDB_URI = config("BDB_URI", default=mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority)
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
