@@ -12,7 +12,7 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("BOT_TOKEN", default=6392016724:AAGnr8czUSreoQ_H3Z_1h463pq2SjkrvCcw)
+    BOT_TOKEN = config("BOT_TOKEN", default="6392016724:AAGnr8czUSreoQ_H3Z_1h463pq2SjkrvCcw")
     API_ID = int(config("API_ID", default=17596251))
     API_HASH = config("API_HASH", default=e58343b4c0193e293e391daf97603fcd)
     OWNER_ID = int(config("OWNER_ID", default=7552579717))
