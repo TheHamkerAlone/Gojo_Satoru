@@ -14,7 +14,7 @@ class Config:
     LOGGER = True
     BOT_TOKEN = config("BOT_TOKEN", default="6392016724:AAGnr8czUSreoQ_H3Z_1h463pq2SjkrvCcw")
     API_ID = int(config("API_ID", default=17596251))
-    API_HASH = config("API_HASH", default=e58343b4c0193e293e391daf97603fcd)
+    API_HASH = config("API_HASH", default="e58343b4c0193e293e391daf97603fcd")
     OWNER_ID = int(config("OWNER_ID", default=7552579717))
     MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-1001603822916))  # if not given owner id will be msg dump :)
     DEV_USERS = [
