@@ -12,11 +12,11 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("BOT_TOKEN", default="6392016724:AAGnr8czUSreoQ_H3Z_1h463pq2SjkrvCcw")
-    API_ID = int(config("API_ID", default="e58343b4c0193e293e391daf97603fcd"))
-    API_HASH = config("API_HASH", default="17596251")
-    OWNER_ID = int(config("OWNER_ID", default="7552579717"))
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default="-1001603822916"))  # if not given owner id will be msg dump :)
+    BOT_TOKEN = config("BOT_TOKEN", default=6392016724:AAGnr8czUSreoQ_H3Z_1h463pq2SjkrvCcw)
+    API_ID = int(config("API_ID", default=17596251))
+    API_HASH = config("API_HASH", default=e58343b4c0193e293e391daf97603fcd)
+    OWNER_ID = int(config("OWNER_ID", default=7552579717))
+    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-1001603822916))  # if not given owner id will be msg dump :)
     DEV_USERS = [
         int(i)
         for i in config(
@@ -42,14 +42,14 @@ class Config:
     # CHROME_DRIVER = config("CHROME_DRIVER", default="/app/.chromedriver/bin/chromedriver")
     GENIUS_API_TOKEN = config("GENIUS_API", default=None)
     # AuDD_API = config("AuDD_API",default=None)
-    RMBG_API = config("RMBG_API", default="iXkrY3xWBKvi6dJcfCLrRxp5")
-    DB_URI = config("DB_URI", default="mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
-    DB_NAME = config("DB_NAME", default="zara")
-    BDB_URI = config("BDB_URI", default="mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
+    RMBG_API = config("RMBG_API", default=iXkrY3xWBKvi6dJcfCLrRxp5)
+    DB_URI = config("DB_URI", default=mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority)
+    DB_NAME = config("DB_NAME", default=zara")
+    BDB_URI = config("BDB_URI", default=mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority)
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
-    SUPPORT_GROUP = config("SUPPORT_GROUP", default="AloneXSupport")
-    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="AloneUpdates")
+    SUPPORT_GROUP = config("SUPPORT_GROUP", default=AloneXSupport)
+    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default=AloneUpdates)
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE", default='Asia/Kolkata')
     BOT_USERNAME = "AloneXRobot"  # Leave it as it is
