@@ -42,7 +42,7 @@ class Config:
     # CHROME_DRIVER = config("CHROME_DRIVER", default="/app/.chromedriver/bin/chromedriver")
     GENIUS_API_TOKEN = config("GENIUS_API", default=None)
     # AuDD_API = config("AuDD_API",default=None)
-    RMBG_API = config("RMBG_API", default=iXkrY3xWBKvi6dJcfCLrRxp5)
+    RMBG_API = config("RMBG_API", default="iXkrY3xWBKvi6dJcfCLrRxp5")
     DB_URI = config("DB_URI", default="mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
     DB_NAME = config("DB_NAME", default=zara)
     BDB_URI = config("BDB_URI", default="mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
