@@ -49,7 +49,7 @@ class Config:
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
     SUPPORT_GROUP = config("SUPPORT_GROUP", default="AloneXSupport")
-    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="AloneUpdates')
+    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="AloneUpdates")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE", default='Asia/Kolkata')
     BOT_USERNAME = "AloneXRobot"  # Leave it as it is
