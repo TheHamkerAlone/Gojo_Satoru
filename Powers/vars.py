@@ -12,7 +12,7 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("BOT_TOKEN", default="6392016724:AAGnr8czUSreoQ_H3Z_1h463pq2SjkrvCcw")
+    BOT_TOKEN = config("BOT_TOKEN", default="6808170222:AAEy7kiRfRoppFJMCW8c2a-3D4yYlzJ5D6E")
     API_ID = int(config("API_ID", default=17596251))
     API_HASH = config("API_HASH", default="e58343b4c0193e293e391daf97603fcd")
     OWNER_ID = int(config("OWNER_ID", default=7552579717))
@@ -62,7 +62,7 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "6392016724:AAGnr8czUSreoQ_H3Z_1h463pq2SjkrvCcw"
+    BOT_TOKEN = "6808170222:AAEy7kiRfRoppFJMCW8c2a-3D4yYlzJ5D6E"
     API_ID = "17596251"  # Your APP_ID from Telegram
     API_HASH = "e58343b4c0193e293e391daf97603fcd"  # Your APP_HASH from Telegram
     OWNER_ID = 7552579717  # Your telegram user id defult to mine
